@@ -1,3 +1,3 @@
 # DataBases
 
-+ [MySQL](./mysql/mysql.md)
++ [MySQL](mysql/mysql.md)
