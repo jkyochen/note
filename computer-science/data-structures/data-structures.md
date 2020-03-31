@@ -16,7 +16,3 @@
     + [红黑树](tree/redblacktree.md)
     + [字典树](tree/trietree.md)
 + [图](graph.md)
-
-## Reference
-
-+ [List of data structures](https://en.wikipedia.org/wiki/List_of_data_structures)

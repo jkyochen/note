@@ -17,7 +17,3 @@
     + [贪心算法](optimization/backtracking.md)
     + [回溯算法](optimization/dp.md)
     + [动态规划](optimization/greedy.md)
-
-## Refence
-
-[List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
