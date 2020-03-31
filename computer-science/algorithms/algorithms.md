@@ -3,9 +3,9 @@
 ## Note
 
 + [排序算法](sort/sort.md)
+    + [O(n<sup>2</sup>)](sort/sort-On2.md)
+    + [O(nlog<sub>2</sub>n)](sort/sort-Onlogn.md)
     + [O(n)](sort/sort-On.md)
-    + [O(n2)](sort/sort-On2.md)
-    + [O(nlogn)](sort/sort-Onlogn.md)
 + [哈希算法](hash.md)
 + [搜索算法](search/search.md)
     + [二分查找](search/aho-corasick.md)
