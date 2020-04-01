@@ -23,9 +23,9 @@
             + [O(n)](computer-science/algorithms/sort/sort-On.md)
         + [哈希算法](computer-science/algorithms/hash.md)
         + [搜索算法](computer-science/algorithms/search/search.md)
-            + [二分查找](computer-science/algorithms/search/aho-corasick.md)
-            + [字符串匹配算法](computer-science/algorithms/search/binary-search.md)
-            + [AC 自动机](computer-science/algorithms/search/string.md)
+            + [二分查找](computer-science/algorithms/search/binary-search.md)
+            + [字符串匹配算法](computer-science/algorithms/search/string.md)
+            + [AC 自动机](computer-science/algorithms/search/aho-corasick.md)
         + [递归](computer-science/algorithms/recursion.md)
         + [分治算法](computer-science/algorithms/divide-and-conquer.md)
         + 最优解
