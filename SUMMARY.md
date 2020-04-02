@@ -1,6 +1,6 @@
 # Summary
 
-+ [Computer Science](computer-science/computer-science.md)
++ Computer Science
     + [Data Structures](computer-science/data-structures/data-structures.md)
         + [数组](computer-science/data-structures/array.md)
         + [链表](computer-science/data-structures/linkedlist.md)
@@ -32,7 +32,7 @@
             + [贪心算法](computer-science/algorithms/optimization/backtracking.md)
             + [回溯算法](computer-science/algorithms/optimization/dp.md)
             + [动态规划](computer-science/algorithms/optimization/greedy.md)
-+ [Databases](databases/databases.md)
++ Databases
     + [MySQL](databases/mysql/mysql.md)
         + [基础架构：查询语句执行过程](databases/mysql/query-execution.md)
         + [日志系统：更新语句执行过程](databases/mysql/update-execution.md)

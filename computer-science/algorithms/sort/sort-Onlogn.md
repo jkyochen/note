@@ -1,4 +1,4 @@
-# 排序 O(nlogn)
+# 排序 O(nlog<sub>2</sub>n)
 
 ## 归并排序（Merge Sort）
 
