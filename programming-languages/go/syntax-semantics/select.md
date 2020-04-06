@@ -44,3 +44,45 @@ case _, ok := <-intChan:
     fmt.Println("The candidate case is selected.")
 }
 ```
+
+超时判断
+
+```golang
+select {
+case v := <-in:
+    fmt.Println(v)
+case <-time.After(time.Second):
+    return // 超时
+}
+```
+
+通过 select 的 default 分支实现非阻塞的管道发送或接收操作
+
+```golang
+select {
+case v := <-in:
+    fmt.Println(v)
+default:
+    // 没有数据
+}
+```
+
+用 select 实现一个生成随机数序列的程序
+
+```golang
+func main() {
+    ch := make(chan int)
+    go func() {
+        for {
+            select {
+            case ch <- 0:
+            case ch <- 1:
+            }
+        }
+    }()
+
+    for v := range ch {
+        fmt.Println(v)
+    }
+}
+```

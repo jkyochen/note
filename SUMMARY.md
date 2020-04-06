@@ -67,12 +67,16 @@
             + [go](programming-languages/go/syntax-semantics/go.md)
             + [channel](programming-languages/go/syntax-semantics/channel.md)
             + [select](programming-languages/go/syntax-semantics/select.md)
-            + [panic-recover-defer](programming-languages/go/syntax-semantics/panic-recover-defer.md)
+            + [panic](programming-languages/go/syntax-semantics/panic.md)
+            + [recover](programming-languages/go/syntax-semantics/recover.md)
+            + [defer](programming-languages/go/syntax-semantics/defer.md)
         + Type System
             + [type](programming-languages/go/type-system/type.md)
         + Runtime System
-            + [array](programming-languages/go/runtime-system/array.md)
-            + [slice](programming-languages/go/runtime-system/slice.md)
+            + [Byte Array](programming-languages/go/runtime-system/byte-array/byte-array.md)
+                + [array](programming-languages/go/runtime-system/byte-array/array.md)
+                + [string](programming-languages/go/runtime-system/byte-array/string.md)
+                + [slice](programming-languages/go/runtime-system/byte-array/slice.md)
             + [error](programming-languages/go/runtime-system/error.md)
             + [interface](programming-languages/go/runtime-system/interface.md)
             + [struct](programming-languages/go/runtime-system/struct.md)
@@ -80,6 +84,7 @@
             + [Go Memory Mode](programming-languages/go/runtime-system/memory-mode.md)
         + Standard Library
             + [flag](programming-languages/go/standard-library/flag.md)
+            + [rand](programming-languages/go/standard-library/rand.md)
             + [container](programming-languages/go/standard-library/container.md)
             + [os](programming-languages/go/standard-library/os.md)
             + [io](programming-languages/go/standard-library/io.md)
@@ -98,7 +103,10 @@
             + [context](programming-languages/go/standard-library/context.md)
             + [socket](programming-languages/go/standard-library/socket.md)
             + [http](programming-languages/go/standard-library/http.md)
+        + [Concurrent Mode](programming-languages/go/concurrent-mode/concurrent-mode.md)
         + Tools
             + [go test](programming-languages/go/tools/test.md)
             + go tool
                 + [pprof - trace](programming-languages/go/tools/pprof-trace.md)
+                + cgo
+                + as
